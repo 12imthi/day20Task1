@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: gray;
+}
+.card {
+    display: flex;
+    /* background-color: rgb(174, 179, 177); */
+    margin-bottom: 20px;
+    border-color: gray !important;
+    border-radius: 0;
+ 
+}
+#demo {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card-title {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px 5px !important;
+    margin: 0px;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0;
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
